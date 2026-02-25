@@ -9,7 +9,7 @@
   </h1>
 
   <p align="center">
-    A comprehensive Brain-Computer Interface (BCI) platform for real-time EEG streaming, motor imagery classification, ocular feature extraction (pupillometry & rPPG), and vocal/transcription analysis.
+    A comprehensive Brain-Computer Interface (BCI) platform for real-time EEG streaming, motor imagery classification and ocular feature extraction (pupillometry & rPPG).
   </p>
 </div>
 
@@ -155,12 +155,6 @@ Verify the following functionality to ensure the setup is successful:
 ## License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
-
-<!-- AUTHOR -->
-
-## Author
-
-**AETHER by RAiD** - [https://aetherraid.dev/](https://aetherraid.dev/)
 
 <!-- ACKNOWLEDGMENTS -->
 
