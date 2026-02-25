@@ -172,7 +172,7 @@ This project utilizes several open-source tools and resources:
 - [OpenBCI](https://openbci.com/) for the core EEG hardware and streaming interfaces.
 - [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) for remote photoplethysmography algorithms.
 - [meye](https://github.com/fabiocarrara/meye) for efficient eye segmentation and pupillometry.
-- [LaBraM](https://github.com/935963004/LaBraM) for EEG foundation model embeddings and TLX regression.
+- [LaBraM](https://github.com/935963004/LaBraM) for EEG foundation model embeddings.
 - Various research papers in the fields of BCI, computer vision, and cognitive state.
 
 
