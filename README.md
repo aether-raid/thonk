@@ -1,7 +1,7 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <img src="imgs/thonk.svg" width="130" alt="Thonk Logo" />
+  <img src="media/imgs/thonk.svg" width="130" alt="Thonk Logo" />
   <h1 align="center">
     <a href="https://en.wiktionary.org/wiki/thonk" target="_blank">
       Thonk
@@ -33,6 +33,7 @@
         <li><a href="#documentation">Documentation</a></li>
       </ul>
     </li>
+    <li><a href="#features--demonstrations">Features & Demonstrations</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -66,6 +67,36 @@ For more in-depth explanations of specific modules within the codebase, refer to
 - **[Motor Imagery](docs/eeg/mi.md)**: Explanation of the EEG classification pipeline and Motor Imagery foundations.
 - **[rPPG Implementation](docs/webcam/rppg.md)**: Details on remote photoplethysmography algorithms used for heartbeat and SPO2 detection.
 - **[Ocular Features](docs/webcam/ocular.md)**: Details on pupillometry, blink detection, and eye segmentation using `meye`.
+
+<!-- FEATURES & DEMONSTRATIONS -->
+
+## Features & Demonstrations
+
+See Thonk in action! Below are video demonstrations of the platform's key features:
+
+### EEG Streaming
+
+Real-time EEG data visualization with channel mapping and 3D brain rendering.
+
+![EEG Streaming Demo](media/gifs/eeg.gif)
+
+### BFM Embeddings
+
+LaBraM foundation model generating real-time EEG embeddings for downstream tasks.
+
+![BFM Embeddings Demo](media/gifs/bfm_embeddings.gif)
+
+### Webcam Features
+
+Simultaneous rPPG (heart rate & SpO2) and pupillometry extraction from webcam input.
+
+![Webcam Features Demo](media/gifs/webcam.gif)
+
+### Motor Imagery
+
+Real-time motor imagery classification and control interface with live predictions.
+
+![Motor Imagery Demo](media/gifs/motor-imagery.gif)
 
 <!-- GETTING STARTED -->
 
