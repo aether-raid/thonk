@@ -164,7 +164,36 @@ bun dev      # or npm run dev
 
 Navigate to [http://localhost:5173](http://localhost:5173).
 
-### 4. Test
+### 4. Tauri (Desktop App)
+
+This project is also configured as a **Tauri desktop application**, which packages the frontend and automatically spawns the backend process as a native macOS/Windows/Linux app.
+
+**Development Mode**
+
+```bash
+cd frontend
+npm run tauri:dev
+```
+
+This will:
+1. Start the Vite dev server
+2. Build the Rust backend
+3. Launch the Tauri desktop app
+4. Automatically spawn the Python backend
+
+**Production Build**
+
+```bash
+cd frontend
+npm run tauri:build
+```
+
+Creates a native executable in:
+- **macOS**: `frontend/src-tauri/target/release/bundle/dmg/thonk_*.dmg`
+- **Windows**: `frontend/src-tauri/target/release/bundle/msi/thonk_*.msi`
+- **Linux**: `frontend/src-tauri/target/release/bundle/appimage/thonk_*.AppImage`
+
+### 5. Test
 
 Verify the following functionality to ensure the setup is successful:
 
